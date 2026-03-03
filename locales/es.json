@@ -1,0 +1,140 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "solutions": "Soluciones",
+        "about": "Sobre",
+        "contact": "Contacto",
+        "getStarted": "Comenzar"
+    },
+    "hero": {
+        "badge": "Plataforma SaaS 2.0",
+        "title": "Soluciones Seguras para un <1>Mundo Digital</1>",
+        "subtitle": "Potencie su startup con infraestructura de seguridad de grado militar. Construido para confiabilidad, diseñado para velocidad y confiado por líderes globales.",
+        "ctaPrimary": "Comience Hoy",
+        "ctaSecondary": "Ver Soluciones"
+    },
+    "features": {
+        "title": "Protección Inigualable",
+        "subtitle": "Todo lo que necesita para asegurar su ecosistema.",
+        "security": {
+            "title": "Seguridad Avanzada",
+            "desc": "Cifrado de grado empresarial para todos sus activos en la nube y datos privados."
+        },
+        "monitoring": {
+            "title": "Monitoreo en Tiempo Real",
+            "desc": "Detección proactiva de amenazas 24/7 con sistemas de respuesta automatizados por IA."
+        },
+        "compliance": {
+            "title": "Cumplimiento en la Nube",
+            "desc": "Cumpla con los estándares globales sin esfuerzo con auditoría de cumplimiento automatizada."
+        }
+    },
+    "stats": {
+        "uptime": "Tiempo de Actividad",
+        "clients": "Clientes Felices"
+    },
+    "about": {
+        "title": "Redefiniendo la Confianza <0>Digital</0>",
+        "subtitle": "Somos una startup SaaS de próxima generación dedicada a asegurar la columna vertebral de la tecnología moderna a través de prácticas de codificación innovadoras y marcos de seguridad robustos.",
+        "mission": {
+            "title": "Nuestra Misión",
+            "desc": "Empoderar a las organizaciones con soluciones tecnológicas perfectas, seguras y transparentes que cierren la brecha entre el software complejo y la confianza humana."
+        },
+        "vision": {
+            "title": "Nuestra Visión",
+            "desc": "Un mundo digital donde cada línea de código sirva como una base segura para el progreso, permitiendo una innovación ilimitada sin compromisos."
+        },
+        "team": {
+            "title": "Nuestro Equipo",
+            "subtitle": "Las mentes detrás de la seguridad."
+        },
+        "cta": {
+            "title": "¿Listo para asegurar su futuro?",
+            "button": "Contáctenos"
+        }
+    },
+    "solutions": {
+        "badge": "Soluciones SaaS Empresariales",
+        "title": "Seguridad escalable para activos digitales <1>modernos</1>.",
+        "subtitle": "Potencie su infraestructura con los protocolos de seguridad de vanguardia y las suites de monitoreo en tiempo real de SafeTrust. Nuestra plataforma se adapta a su escala, garantizando una protección constante.",
+        "items": {
+            "zeroTrust": {
+                "title": "Acceso Zero-Trust",
+                "desc": "Verifique cada usuario y dispositivo que intente acceder a recursos en su red privada, independientemente de su ubicación. Implementando protocolos estrictos de validación de identidad."
+            },
+            "threatIntel": {
+                "title": "Inteligencia de Amenazas",
+                "desc": "Análisis impulsados por IA que detectan anomalías y posibles infracciones antes de que afecten la continuidad de su negocio. Escaneo en tiempo real de millones de eventos."
+            },
+            "cloudCompliance": {
+                "title": "Cumplimiento en la Nube",
+                "desc": "Audite automáticamente sus entornos de nube contra estándares globales de cumplimiento como SOC2, HIPAA y GDPR. Informes de un clic para auditores."
+            },
+            "identityMgmt": {
+                "title": "Gestión de Identidad",
+                "desc": "Inicio de sesión único unificado (SSO) y autenticación multifactor (MFA) para optimizar el flujo de trabajo de su equipo de forma segura en todas las aplicaciones internas."
+            }
+        },
+        "cta": {
+            "title": "¿Listo para asegurar su futuro?",
+            "subtitle": "Únase a más de 500 empresas tecnológicas que confían en SafeTrust para su infraestructura de seguridad crítica. Construyamos algo seguro juntos.",
+            "button": "Agendar una Demo",
+            "learnMore": "Saber más"
+        }
+    },
+    "contact": {
+        "title": "Póngase en contacto",
+        "subtitle": "¿Tiene preguntas sobre nuestra infraestructura de seguridad? Estamos aquí para ayudarlo a escalar de manera segura y eficiente.",
+        "form": {
+            "name": "Nombre Completo",
+            "email": "Dirección de Correo",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "send": "Enviar Mensaje",
+            "options": {
+                "product": "Consulta de Producto",
+                "support": "Soporte Técnico",
+                "sales": "Ventas y Asociaciones",
+                "other": "Otro"
+            },
+            "placeholders": {
+                "name": "Juan Pérez",
+                "email": "juan@empresa.com",
+                "message": "¿Cómo podemos ayudarle?"
+            }
+        },
+        "info": {
+            "title": "Encuéntrenos",
+            "hq": {
+                "title": "Sede Global",
+                "desc": "123 Innovation Drive, Suite 500 Silicon Valley, CA 94025"
+            },
+            "call": {
+                "title": "Llámenos",
+                "desc": "Principal: +1 (555) 000-SAFE Soporte: +1 (555) 123-4567"
+            },
+            "email": {
+                "title": "Envíenos un correo",
+                "desc": "hello@safetrust.tech security@safetrust.tech"
+            },
+            "map": "Abrir en Maps"
+        }
+    },
+    "footer": {
+        "company": "Compañía",
+        "support": "Soporte",
+        "contact": "Contacto",
+        "rights": "© 2024 SafeTrust Technology Inc. Todos los derechos reservados.",
+        "links": {
+            "about": "Sobre Nosotros",
+            "solutions": "Soluciones",
+            "careers": "Carreras",
+            "privacy": "Política de Privacidad",
+            "help": "Centro de Ayuda",
+            "docs": "Documentación",
+            "api": "Referencia de API",
+            "community": "Comunidad"
+        },
+        "desc": "Infraestructura de seguridad de próxima generación para startups modernas. Construya confianza en cada transacción a través de nuestra avanzada plataforma SaaS."
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "nav": {
+        "home": "Home",
+        "solutions": "Solutions",
+        "about": "About",
+        "contact": "Contact",
+        "getStarted": "Get Started"
+    },
+    "hero": {
+        "badge": "SaaS Platform 2.0",
+        "title": "Secure Solutions for a <1>Digital World</1>",
+        "subtitle": "Empower your startup with military-grade security infrastructure. Built for reliability, designed for speed, and trusted by global leaders.",
+        "ctaPrimary": "Get Started Today",
+        "ctaSecondary": "View Solutions"
+    },
+    "features": {
+        "title": "Unmatched Protection",
+        "subtitle": "Everything you need to secure your ecosystem.",
+        "security": {
+            "title": "Advanced Security",
+            "desc": "Enterprise-grade encryption for all your cloud assets and private data."
+        },
+        "monitoring": {
+            "title": "Real-time Monitoring",
+            "desc": "24/7 proactive threat detection with automated AI response systems."
+        },
+        "compliance": {
+            "title": "Cloud Compliance",
+            "desc": "Meet global standards effortlessly with automated compliance auditing."
+        }
+    },
+    "stats": {
+        "uptime": "System Uptime",
+        "clients": "Happy Clients"
+    },
+    "about": {
+        "title": "Redefining Digital <0>Trust</0>",
+        "subtitle": "We are a next-generation SaaS startup dedicated to securing the backbone of modern technology through innovative coding practices and robust security frameworks.",
+        "mission": {
+            "title": "Our Mission",
+            "desc": "To empower organizations with seamless, secure, and transparent technology solutions that bridge the gap between complex software and human trust."
+        },
+        "vision": {
+            "title": "Our Vision",
+            "desc": "A digital world where every line of code serves as a secure foundation for progress, enabling limitless innovation without compromise."
+        },
+        "team": {
+            "title": "Our Team",
+            "subtitle": "The minds behind the safety."
+        },
+        "cta": {
+            "title": "Ready to secure your future?",
+            "button": "Contact Us"
+        }
+    },
+    "solutions": {
+        "badge": "Enterprise SaaS Solutions",
+        "title": "Scalable security for <1>modern</1> digital assets.",
+        "subtitle": "Empower your infrastructure with SafeTrust's cutting-edge security protocols and real-time monitoring suites. Our platform adapts to your scale, ensuring constant protection.",
+        "items": {
+            "zeroTrust": {
+                "title": "Zero-Trust Access",
+                "desc": "Verify every user and device trying to access resources on your private network, regardless of their location. Implementing strict identity validation protocols."
+            },
+            "threatIntel": {
+                "title": "Threat Intelligence",
+                "desc": "AI-powered analytics that detect anomalies and potential breaches before they impact your business continuity. Real-time scanning of millions of events."
+            },
+            "cloudCompliance": {
+                "title": "Cloud Compliance",
+                "desc": "Automatically audit your cloud environments against global compliance standards like SOC2, HIPAA, and GDPR. One-click reports for auditors."
+            },
+            "identityMgmt": {
+                "title": "Identity Management",
+                "desc": "Unified single sign-on (SSO) and multi-factor authentication (MFA) to streamline your team's workflow securely across all internal applications."
+            }
+        },
+        "cta": {
+            "title": "Ready to secure your future?",
+            "subtitle": "Join over 500+ tech companies trusting SafeTrust for their critical security infrastructure. Let's build something safe together.",
+            "button": "Book a Demo",
+            "learnMore": "Learn more"
+        }
+    },
+    "contact": {
+        "title": "Get in touch",
+        "subtitle": "Have questions about our security infrastructure? We're here to help you scale safely and efficiently.",
+        "form": {
+            "name": "Full Name",
+            "email": "Email Address",
+            "subject": "Subject",
+            "message": "Message",
+            "send": "Send Message",
+            "options": {
+                "product": "Product Inquiry",
+                "support": "Technical Support",
+                "sales": "Sales & Partnerships",
+                "other": "Other"
+            },
+            "placeholders": {
+                "name": "John Doe",
+                "email": "john@company.com",
+                "message": "How can we help you?"
+            }
+        },
+        "info": {
+            "title": "Find Us",
+            "hq": {
+                "title": "Global Headquarters",
+                "desc": "123 Innovation Drive, Suite 500 Silicon Valley, CA 94025"
+            },
+            "call": {
+                "title": "Call Us",
+                "desc": "Main: +1 (555) 000-SAFE Support: +1 (555) 123-4567"
+            },
+            "email": {
+                "title": "Email Us",
+                "desc": "hello@safetrust.tech security@safetrust.tech"
+            },
+            "map": "Open in Maps"
+        }
+    },
+    "footer": {
+        "company": "Company",
+        "support": "Support",
+        "contact": "Contact",
+        "rights": "© 2024 SafeTrust Technology Inc. All rights reserved.",
+        "links": {
+            "about": "About Us",
+            "solutions": "Solutions",
+            "careers": "Careers",
+            "privacy": "Privacy Policy",
+            "help": "Help Center",
+            "docs": "Documentation",
+            "api": "API Reference",
+            "community": "Community"
+        },
+        "desc": "Next-generation security infrastructure for modern startups. Build trust with every transaction through our advanced SaaS platform."
+    }
+}
