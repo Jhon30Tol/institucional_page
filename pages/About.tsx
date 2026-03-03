@@ -11,7 +11,7 @@ const About: React.FC = () => {
                 </p>
             </header>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 350px))', justifyContent: 'center', gap: '4rem' }}>
                 {FOUNDERS_DATA.map(f => (
                     <div key={f.id} className="glass-card" style={{ padding: '3rem', textAlign: 'center' }}>
                         <div style={{

@@ -32,21 +32,21 @@ export const FOUNDERS_DATA: Founder[] = [
     {
         id: 'f2',
         name: 'Wagner Neves',
-        role: 'CEO e Founder - Dev Full Stack',
+        role: 'CEO e Founder - Dev Full Stack Senior',
         story: 'Especialista em todo o ciclo de vida da aplicação, unindo agilidade e precisão técnica do front ao back.',
         image: '/images/wagner.jpeg'
     },
     {
         id: 'f3',
         name: 'Marcos',
-        role: 'CEO e Founder - Analista de Sistemas e Gestor Comercial',
+        role: 'CEO e Founder - Analista de Sistemas e Gestor Comercial Senior',
         story: 'A ponte entre a inteligência técnica e o mercado, garantindo parcerias sólidas e foco total no valor para o cliente.',
-        image: '/images/founder-placeholder.png' // Marcos is missing an image, using a placeholder logic or gradient
+        image: '/images/founder-placeholder.png'
     },
     {
         id: 'f4',
         name: 'Jhon Toledo',
-        role: 'Analista de Sistemas - Dev Front End',
+        role: 'Analista de Sistemas Senior - Dev Front End Senior',
         story: 'Especialista em interfaces premium e experiência do usuário, focado em alta performance visual e interativa.',
         image: '/images/jhon.jpg'
     }

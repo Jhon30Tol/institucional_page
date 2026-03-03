@@ -39,7 +39,7 @@ export const Services: React.FC = () => (
 
 export const FoundersBrief: React.FC = () => (
     <section style={{ padding: '6rem 2rem', background: 'var(--bg-surface)' }}>
-        <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+        <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 300px))', justifyContent: 'center', gap: '2rem' }}>
             <div style={{ gridColumn: '1 / -1', textAlign: 'center', marginBottom: '3rem' }}>
                 <h2>Quatro Mentes, Um Objetivo</h2>
                 <p style={{ color: 'var(--text-muted)' }}>Nossa história nasceu da amizade e se consolidou através da excelência técnica.</p>
