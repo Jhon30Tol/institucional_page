@@ -2,7 +2,7 @@ import React from 'react';
 import { SERVICES_DATA, FOUNDERS_DATA } from '../data/ContentStore';
 
 export const Hero: React.FC = () => (
-    <section style={{ padding: '12rem 2rem 6rem', textAlign: 'center', position: 'relative' }}>
+    <section style={{ padding: 'clamp(6rem, 15vh, 12rem) 1.5rem 6rem', textAlign: 'center', position: 'relative' }}>
         <div style={{ position: 'absolute', top: '10%', left: '50%', transform: 'translateX(-50%)', width: '600px', height: '600px', background: 'var(--primary-glow)', filter: 'blur(100px)', borderRadius: '50%', zIndex: -1 }}></div>
         <h1 className="animate-fade-in" style={{ fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', maxWidth: '900px', margin: '0 auto', lineHeight: 1.1 }}>
             Transformando <span style={{ color: 'var(--primary)' }}>Amizade</span> em <br />Inovação Ousada.
