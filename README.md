@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SafeTrust Technology - Institutional Site
 
-# Run and deploy your AI Studio app
+![SafeTrust Banner](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200&h=400)
 
-This contains everything you need to run your app locally.
+Site institucional premium desenvolvido para uma empresa de soluções tecnológicas fundada por quatro amigos. Focado em **Amizade, Inteligência e Inovação Ousada**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1QYzY7SKhoxACa5ERpzmwICrYVoOQwHmB
+## 🚀 Tecnologias
 
-## Run Locally
+- **React 19** + **TypeScript**
+- **Vite** (Build Tool)
+- **React Router Dom** (Navegação Multi-página)
+- **Vanilla CSS** (Design System Customizado)
+- **Cloudflare Pages/Workers** (Deployment)
 
-**Prerequisites:**  Node.js
+## 💎 Diferenciais do Projeto
 
+- **Estética Premium**: Paleta *Deep Blue & Teal*, com uso de glassmorphism e animações suaves.
+- **Arquitetura OOP**: Dados de sócios, serviços e processos organizados através de *Models* e um *Content Store* centralizado.
+- **Performance**: Carregamento ultrarrápido com assets otimizados e caminhos relativos para compatibilidade total com Cloudflare.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Como Rodar Localmente
+
+1. **Instale as dependências:**
+   ```powershell
+   npm install
+   ```
+
+2. **Inicie o servidor de desenvolvimento:**
+   ```powershell
+   npm run dev
+   ```
+
+3. **Gere o build de produção:**
+   ```powershell
+   powershell -ExecutionPolicy Bypass -Command "npx vite build"
+   ```
+
+## 🌐 Deployment (Cloudflare)
+
+Para subir as alterações manualmente via Wrangler:
+
+```powershell
+powershell -ExecutionPolicy Bypass -Command "npx wrangler pages deploy dist --project-name institucional-page"
+```
+
+---
+*SafeTrust: Inteligência coletiva transformando desafios em tecnologia de ponta.*
