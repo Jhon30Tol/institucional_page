@@ -14,7 +14,17 @@ const About: React.FC = () => {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
                 {FOUNDERS_DATA.map(f => (
                     <div key={f.id} className="glass-card" style={{ padding: '3rem', textAlign: 'center' }}>
-                        <div style={{ width: '150px', height: '150px', background: 'var(--grad-premium)', borderRadius: '50%', margin: '0 auto 2rem', border: '4px solid rgba(255,255,255,0.05)' }}></div>
+                        <div style={{
+                            width: '150px',
+                            height: '150px',
+                            backgroundImage: f.image && f.image !== '/images/founder-placeholder.png' ? `url(${f.image})` : 'var(--grad-premium)',
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '50%',
+                            margin: '0 auto 2rem',
+                            border: '4px solid rgba(255,255,255,0.05)',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.3)'
+                        }}></div>
                         <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>{f.name}</h2>
                         <p style={{ color: 'var(--primary)', fontWeight: 600, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.8rem' }}>{f.role}</p>
                         <p style={{ color: 'var(--text-muted)', fontSize: '1rem', lineHeight: 1.8 }}>{f.story}</p>

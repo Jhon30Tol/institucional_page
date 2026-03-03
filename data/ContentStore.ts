@@ -24,27 +24,31 @@ export const SERVICES_DATA: Service[] = [
 export const FOUNDERS_DATA: Founder[] = [
     {
         id: 'f1',
-        name: 'Carlos Santos',
-        role: 'CEO & Founder',
-        story: 'Entusiasta de inovação com 10 anos de experiência em arquitetura escalável.'
+        name: 'Paluan Batista',
+        role: 'CEO e Founder - Engenheiro de Software Sênior',
+        story: 'Liderança técnica e estratégica, transformando visões complexas em arquiteturas de software de alto desempenho.',
+        image: '/images/paluan.png'
     },
     {
         id: 'f2',
-        name: 'Ricardo Lima',
-        role: 'CTO & Founder',
-        story: 'Especialista em segurança e sistemas críticos de alto desempenho.'
+        name: 'Wagner Neves',
+        role: 'CEO e Founder - Dev Full Stack',
+        story: 'Especialista em todo o ciclo de vida da aplicação, unindo agilidade e precisão técnica do front ao back.',
+        image: '/images/wagner.jpeg'
     },
     {
         id: 'f3',
-        name: 'Mateus Oliveira',
-        role: 'Head of AI',
-        story: 'Referência em machine learning e modelos preditivos.'
+        name: 'Marcos',
+        role: 'CEO e Founder - Analista de Sistemas e Gestor Comercial',
+        story: 'A ponte entre a inteligência técnica e o mercado, garantindo parcerias sólidas e foco total no valor para o cliente.',
+        image: '/images/founder-placeholder.png' // Marcos is missing an image, using a placeholder logic or gradient
     },
     {
         id: 'f4',
-        name: 'Tiago Rocha',
-        role: 'Product Lead',
-        story: 'Visão de produto centrada no usuário e em design de alta fidelidade.'
+        name: 'Jhon Toledo',
+        role: 'Analista de Sistemas - Dev Front End',
+        story: 'Especialista em interfaces premium e experiência do usuário, focado em alta performance visual e interativa.',
+        image: '/images/jhon.jpg'
     }
 ];
 

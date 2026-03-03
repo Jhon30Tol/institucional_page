@@ -46,9 +46,18 @@ export const FoundersBrief: React.FC = () => (
             </div>
             {FOUNDERS_DATA.map(f => (
                 <div key={f.id} style={{ textAlign: 'center' }}>
-                    <div style={{ width: '100px', height: '100px', background: 'var(--grad-premium)', borderRadius: '50%', margin: '0 auto 1.5rem' }}></div>
+                    <div style={{
+                        width: '100px',
+                        height: '100px',
+                        backgroundImage: f.image && f.image !== '/images/founder-placeholder.png' ? `url(${f.image})` : 'var(--grad-premium)',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        borderRadius: '50%',
+                        margin: '0 auto 1.5rem',
+                        border: '2px solid rgba(255,255,255,0.1)'
+                    }}></div>
                     <h4>{f.name}</h4>
-                    <p style={{ fontSize: '0.9rem', color: 'var(--primary)' }}>{f.role}</p>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--primary)', fontWeight: 600 }}>{f.role}</p>
                 </div>
             ))}
         </div>
