@@ -5,9 +5,9 @@ const About: React.FC = () => {
     return (
         <main style={{ padding: '12rem 2rem 6rem', maxWidth: 'var(--container-max)', margin: '0 auto' }}>
             <header style={{ textAlign: 'center', marginBottom: '6rem' }}>
-                <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>Quatro Amigos, <br /><span style={{ color: 'var(--primary)' }}>Uma Visão Bold.</span></h1>
+                <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>Quatro Amigos, <br /><span style={{ color: 'var(--primary)' }}>Uma Visão.</span></h1>
                 <p style={{ color: 'var(--text-muted)', maxWidth: '700px', margin: '0 auto', fontSize: '1.2rem' }}>
-                    Tudo começou em conversas sobre o futuro da tecnologia. Hoje, unimos nossas inteligências para construir soluções que fazem a diferença.
+                    Tudo começou em conversas sobre o futuro da tecnologia e tecnologias para o dia a dia. Hoje, unimos nossas inteligências para construir soluções que fazem a diferença.
                 </p>
             </header>
 

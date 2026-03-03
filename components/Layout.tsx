@@ -14,9 +14,7 @@ export const Navbar: React.FC = () => {
                 padding: '0.6rem 1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
                 boxShadow: '0 10px 30px rgba(0,0,0,0.5)'
             }}>
-                <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-                    <img src="/images/Logo_completa_safe.svg" alt="SafeTrust Logo" style={{ height: '35px', width: 'auto' }} />
-                </Link>
+                <Link to="/" style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--primary)', textDecoration: 'none' }}>SafeTrust</Link>
 
                 {/* Desktop Menu */}
                 <div className="hide-mobile" style={{ gap: '2rem', alignItems: 'center' }}>
@@ -54,7 +52,7 @@ export const Footer: React.FC = () => {
         <footer style={{ padding: '4rem 2rem', background: 'var(--bg-surface)', marginTop: '4rem' }}>
             <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
                 <div>
-                    <img src="/images/Logo_completa_safe.svg" alt="SafeTrust Logo" style={{ height: '40px', width: 'auto', marginBottom: '1.5rem' }} />
+                    <h3 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>SafeTrust</h3>
                     <p style={{ color: 'var(--text-muted)' }}>Soluções inteligentes, amizade sólida e inovação ousada.</p>
                 </div>
                 <div>
