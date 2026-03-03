@@ -25,24 +25,26 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
+      <React.Suspense fallback={<div className="min-h-screen flex items-center justify-center bg-slate-50 dark:bg-[#051124]"><div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin"></div></div>}>
+        <div className="min-h-screen flex flex-col">
+          <Navbar />
 
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/solutions" element={<Solutions />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/solutions" element={<Solutions />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </main>
 
-        <Footer />
-        <ThemeToggle isDark={darkMode} toggle={toggleTheme} />
+          <Footer />
+          <ThemeToggle isDark={darkMode} toggle={toggleTheme} />
 
-        {/* Floating Mobile Nav bar for specific pages or general access */}
-        <MobileBottomNav />
-      </div>
+          {/* Floating Mobile Nav bar for specific pages or general access */}
+          <MobileBottomNav />
+        </div>
+      </React.Suspense>
     </Router>
   );
 };
