@@ -24,9 +24,9 @@ export const SERVICES_DATA: Service[] = [
 export const FOUNDERS_DATA: Founder[] = [
     {
         id: 'f1',
-        name: 'Paluan Batista',
+        name: 'Paluan Batista Zamproni',
         role: 'CEO e Founder - Engenheiro de Software Sênior',
-        story: 'Liderança técnica e estratégica, transformando visões complexas em arquiteturas de software de alto desempenho.',
+        story: 'Paluan Batista Zamproni é Engenheiro de Software Sênior com sólida atuação em arquitetura de sistemas, desenvolvimento backend e construção de plataformas escaláveis. Sua trajetória é marcada por decisões técnicas orientadas a resultado, sempre equilibrando performance, simplicidade estrutural e capacidade de evolução do produto.\n\nEspecialista no ecossistema Golang, com forte experiência também em Java e arquiteturas baseadas em serviços, Paluan atua no desenho e implementação de APIs, sistemas distribuídos e soluções cloud-native. Seu trabalho prioriza princípios como separação clara de responsabilidades, baixo acoplamento, observabilidade, testes automatizados e padrões de resiliência — fundamentos essenciais para ambientes de missão crítica.\n\nAo longo da carreira, consolidou expertise em engenharia de confiabilidade, incluindo estratégias de tolerância a falhas, monitoramento, métricas e performance em produção. Seu perfil técnico combina visão arquitetural com execução prática, sendo reconhecido por estruturar bases sólidas que sustentam crescimento sustentável e redução de débito técnico.\n\nAlém da competência técnica, destaca-se pela capacidade analítica, comunicação objetiva e foco em impacto real de negócio. Atua com mentalidade de produto, entendendo que tecnologia deve ser instrumento de geração de valor — e não apenas entrega de código.\n\nNa SafeTrust, representa o compromisso com engenharia de alto padrão, inovação responsável e construção de soluções tecnológicas preparadas para escala e longevidade.',
         image: '/images/paluan.png'
     },
     {
