@@ -48,7 +48,7 @@ export const FOUNDERS_DATA: Founder[] = [
         name: 'Jhon Toledo',
         role: 'Analista de Sistemas Senior - Dev Front End Senior',
         story: 'Especialista em interfaces premium e experiência do usuário, focado em alta performance visual e interativa.',
-        image: '/images/jhon.jpg'
+        image: '/images/Foto_jhon.png'
     }
 ];
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../imagens/LOGOTIPO VARIADO MARCA D AGUA.png';
 
 export const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,9 @@ export const Navbar: React.FC = () => {
                 padding: '0.6rem 1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
                 boxShadow: '0 10px 30px rgba(0,0,0,0.5)'
             }}>
-                <Link to="/" style={{ fontSize: '1.4rem', fontWeight: 800, color: 'var(--primary)', textDecoration: 'none' }}>SafeTrust</Link>
+                <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+                    <img src={logo} alt="SafeTrust Logo" style={{ height: '30px', objectFit: 'contain' }} />
+                </Link>
 
                 {/* Desktop Menu */}
                 <div className="hide-mobile" style={{ gap: '2rem', alignItems: 'center' }}>
@@ -52,7 +55,7 @@ export const Footer: React.FC = () => {
         <footer style={{ padding: '4rem 2rem', background: 'var(--bg-surface)', marginTop: '4rem' }}>
             <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
                 <div>
-                    <h3 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>SafeTrust</h3>
+                    <img src={logo} alt="SafeTrust Logo" style={{ height: '40px', marginBottom: '1rem', objectFit: 'contain' }} />
                     <p style={{ color: 'var(--text-muted)' }}>Soluções inteligentes, amizade sólida e inovação ousada.</p>
                 </div>
                 <div>
