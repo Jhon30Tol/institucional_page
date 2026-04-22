@@ -1,5 +1,5 @@
 import React from 'react';
-import riberfoodLogo from '../imagens/solucoes/riberfood_logo.png';
+import riberfoodLogo from '../imagens/solucoes/riberfood_logo_delivery.jpeg';
 
 const Solutions: React.FC = () => {
     return (
@@ -15,18 +15,18 @@ const Solutions: React.FC = () => {
 
             <section style={{ maxWidth: '1000px', margin: '0 auto' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', justifyContent: 'center' }}>
-                    
+
                     {/* Projeto Riberfood */}
-                    <a 
-                        href="https://riberfood-landing-page.jonathas-tpereira.workers.dev/" 
-                        target="_blank" 
+                    <a
+                        href="https://riberfood-landing-page.jonathas-tpereira.workers.dev/"
+                        target="_blank"
                         rel="noopener noreferrer"
-                        className="glass-card" 
-                        style={{ 
-                            textDecoration: 'none', 
+                        className="glass-card"
+                        style={{
+                            textDecoration: 'none',
                             color: 'inherit',
-                            display: 'flex', 
-                            flexDirection: 'column', 
+                            display: 'flex',
+                            flexDirection: 'column',
                             alignItems: 'center',
                             padding: '3rem',
                             cursor: 'pointer'
@@ -44,30 +44,30 @@ const Solutions: React.FC = () => {
                             padding: '1rem',
                             boxShadow: 'inset 0 4px 20px rgba(0,0,0,0.5)'
                         }}>
-                            <img 
-                                src={riberfoodLogo} 
-                                alt="Logo Riberfood" 
+                            <img
+                                src={riberfoodLogo}
+                                alt="Logo Riberfood"
                                 style={{
                                     width: '100%',
                                     height: 'auto',
                                     objectFit: 'contain'
-                                }} 
+                                }}
                             />
                         </div>
                         <h3 style={{ fontSize: '1.8rem', marginBottom: '0.5rem', color: 'var(--text-main)' }}>Riberfood</h3>
-                        <p style={{ 
-                            color: 'var(--primary)', 
-                            fontWeight: 700, 
-                            textTransform: 'uppercase', 
-                            letterSpacing: '0.15em', 
-                            fontSize: '0.85rem' 
+                        <p style={{
+                            color: 'var(--primary)',
+                            fontWeight: 700,
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.15em',
+                            fontSize: '0.85rem'
                         }}>
                             App Delivery
                         </p>
                     </a>
 
                     {/* Espaço para futuros projetos... */}
-                    
+
                 </div>
             </section>
         </main>
