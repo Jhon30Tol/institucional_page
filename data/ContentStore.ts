@@ -41,7 +41,8 @@ export const FOUNDERS_DATA: Founder[] = [
         name: 'Marcos Lopes',
         role: 'Estratégia de Operações',
         story: 'Especialista em tecnologia com experiência em sistemas, dados e liderança técnica, focado em alinhar soluções robustas às necessidades reais de negócio. Na SafeTrust, lidera a estruturação estratégica e o relacionamento com clientes para transformar demandas de mercado em plataformas escaláveis.',
-        image: '/images/Marcos.jpeg'
+        image: '/images/Marcos.jpeg',
+        imagePosition: 'top'
     },
     {
         id: 'f4',

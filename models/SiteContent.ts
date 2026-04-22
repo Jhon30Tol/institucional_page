@@ -11,6 +11,7 @@ export interface Founder {
     role: string;
     story: string;
     image?: string;
+    imagePosition?: string;
 }
 
 export interface Testimonial {
