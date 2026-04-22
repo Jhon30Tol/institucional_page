@@ -47,7 +47,7 @@ export const FOUNDERS_DATA: Founder[] = [
     {
         id: 'f4',
         name: 'Jhon Toledo',
-        role: 'Pesquisa em Segurança',
+        role: 'Dev Full Stack',
         story: 'Especialista em interfaces premium e UX, focado em alta performance visual e interações que elevam o padrão estético e funcional de produtos digitais. Une design estratégico e precisão técnica para criar experiências memoráveis, aliando sofisticação visual a resultados sólidos de negócio.',
         image: '/images/Foto_jhon.png'
     }
