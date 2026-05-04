@@ -11,10 +11,9 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
     },
     plugins: [react()],
-    define: {
-      'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-    },
+    // Removido 'define' para evitar exposição de chaves sensíveis no código-fonte do navegador
+    // Se precisar usar chaves no frontend, use import.meta.env (com prefixo VITE_) ou, preferencialmente, um proxy backend.
+
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
